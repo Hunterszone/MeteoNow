@@ -1957,10 +1957,12 @@ containing a value of this type.
         public static final int notification_bg_normal=0x7f020082;
         public static final int notification_bg_normal_pressed=0x7f020083;
         public static final int notification_icon_background=0x7f020084;
-        public static final int notification_template_icon_bg=0x7f020087;
-        public static final int notification_template_icon_low_bg=0x7f020088;
+        public static final int notification_template_icon_bg=0x7f020089;
+        public static final int notification_template_icon_low_bg=0x7f02008a;
         public static final int notification_tile_bg=0x7f020085;
         public static final int notify_panel_notification_icon_bg=0x7f020086;
+        public static final int weather_bg_1=0x7f020087;
+        public static final int weather_bg_2=0x7f020088;
     }
     public static final class id {
         public static final int action0=0x7f0b0068;
@@ -1998,6 +2000,7 @@ containing a value of this type.
         public static final int checkbox=0x7f0b0046;
         public static final int chronometer=0x7f0b0071;
         public static final int city_field=0x7f0b0060;
+        public static final int clear_list_app=0x7f0b007f;
         public static final int collapseActionView=0x7f0b0020;
         public static final int container=0x7f0b005f;
         public static final int contentPanel=0x7f0b0039;
@@ -2012,7 +2015,6 @@ containing a value of this type.
         public static final int edit_query=0x7f0b0051;
         public static final int end=0x7f0b001b;
         public static final int end_padder=0x7f0b007b;
-        public static final int exit_app=0x7f0b007d;
         public static final int expand_activities_button=0x7f0b0030;
         public static final int expanded_menu=0x7f0b0045;
         public static final int home=0x7f0b0004;
@@ -2041,6 +2043,7 @@ containing a value of this type.
         public static final int progress_circular=0x7f0b0005;
         public static final int progress_horizontal=0x7f0b0006;
         public static final int radio=0x7f0b0048;
+        public static final int refresh_app=0x7f0b007d;
         public static final int right_icon=0x7f0b0073;
         public static final int right_side=0x7f0b006f;
         public static final int screen=0x7f0b0015;
@@ -2058,6 +2061,7 @@ containing a value of this type.
         public static final int search_src_text=0x7f0b0058;
         public static final int search_voice_btn=0x7f0b005c;
         public static final int select_dialog_listview=0x7f0b005d;
+        public static final int setHome_app=0x7f0b007e;
         public static final int shortcut=0x7f0b0047;
         public static final int showCustom=0x7f0b000f;
         public static final int showHome=0x7f0b0010;
@@ -2219,18 +2223,22 @@ containing a value of this type.
         public static final int common_signin_button_text=0x7f06002e;
         public static final int common_signin_button_text_long=0x7f06002f;
         public static final int exit_app=0x7f060042;
-        public static final int open_weather_maps_app_id=0x7f060043;
-        public static final int place_not_found=0x7f060044;
+        public static final int location_def=0x7f060043;
+        public static final int location_get=0x7f060044;
+        public static final int location_res=0x7f060045;
+        public static final int location_set=0x7f060046;
+        public static final int open_weather_maps_app_id=0x7f060047;
+        public static final int place_not_found=0x7f060048;
         public static final int search_menu_title=0x7f060030;
         public static final int status_bar_notification_info_overflow=0x7f060031;
-        public static final int weather_clear_night=0x7f060045;
-        public static final int weather_cloudy=0x7f060046;
-        public static final int weather_drizzle=0x7f060047;
-        public static final int weather_foggy=0x7f060048;
-        public static final int weather_rainy=0x7f060049;
-        public static final int weather_snowy=0x7f06004a;
-        public static final int weather_sunny=0x7f06004b;
-        public static final int weather_thunder=0x7f06004c;
+        public static final int weather_clear_night=0x7f060049;
+        public static final int weather_cloudy=0x7f06004a;
+        public static final int weather_drizzle=0x7f06004b;
+        public static final int weather_foggy=0x7f06004c;
+        public static final int weather_rainy=0x7f06004d;
+        public static final int weather_snowy=0x7f06004e;
+        public static final int weather_sunny=0x7f06004f;
+        public static final int weather_thunder=0x7f060050;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f08009f;

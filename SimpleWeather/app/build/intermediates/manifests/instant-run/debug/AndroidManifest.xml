@@ -14,12 +14,12 @@
         android:name="com.android.tools.fd.runtime.BootstrapApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="DrenskiMeteo"
+        android:label="MeteoNow"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="drenski.com.simpleweather.WeatherActivity"
-            android:label="DrenskiMeteo"
+            android:label="MeteoNow"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

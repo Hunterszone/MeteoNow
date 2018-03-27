@@ -8,15 +8,31 @@
     <item
         android:id="@+id/change_city"
         android:orderInCategory="1"
-        android:title="Choose location"
+        android:title="Choose Location"
 
         app:showAsAction="never"/>
 
     <item
 
-        android:id="@+id/exit_app"
+        android:id="@+id/refresh_app"
         android:orderInCategory="2"
-        android:title="Exit"
+        android:title="Display Home"
+
+        app:showAsAction="never"/>
+
+    <item
+
+        android:id="@+id/setHome_app"
+        android:orderInCategory="3"
+        android:title="Add Home"
+
+        app:showAsAction="never"/>
+
+    <item
+
+        android:id="@+id/clear_list_app"
+        android:orderInCategory="4"
+        android:title="Reset Home"
 
         app:showAsAction="never"/>
 

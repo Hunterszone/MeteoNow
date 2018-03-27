@@ -381,7 +381,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="app_name">DrenskiMeteo</string>
+    <string name="app_name">MeteoNow</string>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
     <string name="auth_google_play_services_client_google_display_name">Google</string>
     <string name="change_city">Choose location</string>
@@ -415,7 +415,11 @@
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="exit_app">Exit</string>
-    <string name="open_weather_maps_app_id">573407683f6864ce66c72720c72937aa</string>
+    <string name="location_def">Default location applied.</string>
+    <string name="location_get">Home location applied.</string>
+    <string name="location_res">Default location was set.</string>
+    <string name="location_set">Home location was set.</string>
+    <string name="open_weather_maps_app_id">e8baa3b19bf1907cb350f5fb34d0a456</string>
     <string name="place_not_found">Sorry, no weather data found.</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>

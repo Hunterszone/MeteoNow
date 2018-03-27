@@ -5,29 +5,29 @@
     density="hdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="783737477814988"
+    timestamp="959911943053309"
     token="1162103656419646274"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1396" />
+        duration="1210" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="11" />
+        duration="47" />
     <task
         name="verifier"
-        duration="3" />
+        duration="17" />
 
     <artifact
         location="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="783737477814988"
+        timestamp="959911943053309"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\outputs\apk\app-debug.apk"

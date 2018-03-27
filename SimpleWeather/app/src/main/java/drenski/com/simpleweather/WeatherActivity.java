@@ -9,7 +9,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
 
+import java.util.ArrayList;
+
+import static android.widget.Toast.*;
+
 public class WeatherActivity extends AppCompatActivity {
+
+    ArrayList<String> homeCity = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,13 +41,72 @@ public class WeatherActivity extends AppCompatActivity {
             showInputDialog();
         }
 
-        if(item.getItemId() == R.id.exit_app){
-            System.exit(0);
+        if(item.getItemId() == R.id.refresh_app){
+            if(homeCity.size() > 0){
+
+                changeCity(homeCity.get(homeCity.size() - 1));
+                locationGetAlert();
+
+            }
+
+            if(homeCity.size() == 0){
+
+                changeCity("Sofia, BG");
+                locationDefaultAlert();
+            }
+
+        }
+
+        if(item.getItemId() == R.id.setHome_app){
+
+                setHomeEngine();
+        }
+
+        if(item.getItemId() == R.id.clear_list_app){
+            homeCity.clear();
+            locationResetAlert();
         }
 
         return false;
 
     }
+
+    public void locationDefaultAlert(){
+        makeText(this, R.string.location_def, LENGTH_SHORT).show();
+    }
+
+    public void locationSetAlert(){
+        makeText(this, R.string.location_set, LENGTH_SHORT).show();
+    }
+
+    public void locationGetAlert(){
+        makeText(this, R.string.location_get, LENGTH_SHORT).show();
+    }
+
+    public void locationResetAlert(){
+        makeText(this, R.string.location_res, LENGTH_SHORT).show();
+    }
+
+    private void setHomeEngine(){
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("E.g.: London, GB");
+        final EditText input = new EditText(this);
+        input.setInputType(InputType.TYPE_CLASS_TEXT);
+        builder.setView(input);
+        builder.setPositiveButton("Set", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+                String a = input.getText().toString();
+                homeCity.add(a);
+                locationSetAlert();
+
+            }
+        });
+        builder.show();
+    }
+
 
     private void showInputDialog(){
         AlertDialog.Builder builder = new AlertDialog.Builder(this);

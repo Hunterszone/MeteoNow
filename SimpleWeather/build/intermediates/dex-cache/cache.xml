@@ -12,15 +12,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
-        <dex dex="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_899d555c1f8fd706a3c5b2e3ab56bdd0b0107200.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -36,24 +27,6 @@
         revision="25.0.2"
         sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
         <dex dex="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.1_7ae0ab3994a67770b1ad65234aaedaae767a755a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cb196e474d81871f240f6dda635b18bd3be9620c">
-        <dex dex="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\intermediates\pre-dexed\debug\instant-run_4f8886eb738b2dbc87b0974bb7a3d436e1a3cbdf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.1_e59eeefcb9eda827bbc372e428cf654141cf8c4a.jar" />
     </item>
     <item
         is-multidex="false"
@@ -84,15 +57,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.1_e5e3d41dfc7fb1d12b723babb2e9fc70a1da9b8b.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -102,21 +66,57 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94a697e7a810209c32072e78821b762b7d4fedc1">
+        <dex dex="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_c75c00e8683413ddfdbc5470aecd14897e9e1855.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_899d555c1f8fd706a3c5b2e3ab56bdd0b0107200.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4bf7cb5f16c57b35c8cf06b0f78ec55e556af6c4">
+        <dex dex="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\intermediates\pre-dexed\debug\instant-run_4f8886eb738b2dbc87b0974bb7a3d436e1a3cbdf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.1_e59eeefcb9eda827bbc372e428cf654141cf8c4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.1_e5e3d41dfc7fb1d12b723babb2e9fc70a1da9b8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
         <dex dex="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.1_409e18f0157c049d2c46a1d8ae0261fbf4d8fde2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="eb9148988669f1489879006758059537ce0e443a">
-        <dex dex="C:\Users\Konstantin\AndroidStudioProjects\SimpleWeather\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_c75c00e8683413ddfdbc5470aecd14897e9e1855.jar" />
     </item>
     <item
         is-multidex="false"

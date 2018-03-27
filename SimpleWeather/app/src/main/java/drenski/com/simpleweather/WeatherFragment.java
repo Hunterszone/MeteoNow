@@ -1,7 +1,6 @@
 package drenski.com.simpleweather;
 
 //import android.app.Fragment;
-import android.content.pm.ActivityInfo;
 import android.support.v4.app.Fragment;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -98,9 +97,9 @@ public class WeatherFragment extends Fragment {
                             "\n" + "Clouds: " + clouds.getString("all") + " %" +
                             "\n" + "Humidity: " + main.getString("humidity") + " %" +
                             "\n" + "Pressure: " + main.getString("pressure") + " hPa" +
-                    "\n" + "WindSpeed: " + wind.getString("speed") + " m/s"
-                            //"\n" + "WindAngle: " + wind.getString("deg") + " °"
-                            );
+                            "\n" + "WindSpeed: " + wind.getString("speed") + " m/s"
+                    //"\n" + "WindAngle: " + wind.getString("deg") + " °"
+            );
 
             DateFormat df = DateFormat.getDateTimeInstance();
             String updatedOn = df.format(new Date(json.getLong("dt")*1000));
