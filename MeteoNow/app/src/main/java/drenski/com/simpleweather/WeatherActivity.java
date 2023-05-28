@@ -2,16 +2,18 @@ package drenski.com.simpleweather;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.InputType;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import java.util.ArrayList;
 
-import static android.widget.Toast.*;
+import static android.widget.Toast.LENGTH_SHORT;
+import static android.widget.Toast.makeText;
 
 public class WeatherActivity extends AppCompatActivity {
 

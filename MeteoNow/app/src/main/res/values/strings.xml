@@ -4,7 +4,7 @@
     <string name="exit_app">Exit</string>
 
     <!-- Put your own APP ID here -->
-    <string name="open_weather_maps_app_id">e8baa3b19bf1907cb350f5fb34d0a456</string>
+    <string name="open_weather_maps_app_id">7a2e11adb11b077cab55a9e1a3c7a16c</string>
 
     <string name="weather_sunny">&#xf00d;</string>
     <string name="weather_clear_night">&#xf02e;</string>

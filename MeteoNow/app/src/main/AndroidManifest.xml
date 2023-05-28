@@ -2,25 +2,21 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="drenski.com.simpleweather">
 
-    <uses-sdk
-        android:minSdkVersion="9"
-        android:targetSdkVersion="25" />
-
     <uses-permission android:name="android.permission.INTERNET"/>
 
-
     <application
+        android:name=".OneSignalApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="MeteoNow"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".WeatherActivity"
+            android:exported="true"
             android:label="MeteoNow"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
